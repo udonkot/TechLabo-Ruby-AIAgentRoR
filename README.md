@@ -1,24 +1,32 @@
-# README
+# TechLabo-Ruby-AIAgentRoR
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails アプリケーションのサンプルプロジェクトです。GitHub Copilot により作成されました。
 
-Things you may want to cover:
+## 環境
 
-* Ruby version
+* Ruby 3.0.2
+* Rails 7.1.5.1
+* SQLite3
 
-* System dependencies
+## セットアップ方法
 
-* Configuration
+```bash
+# リポジトリをクローン
+git clone https://github.com/[username]/TechLabo-Ruby-AIAgentRoR.git
+cd TechLabo-Ruby-AIAgentRoR
 
-* Database creation
+# 依存関係のインストール
+bundle install
 
-* Database initialization
+# データベースの作成と初期化
+bin/rails db:create
+bin/rails db:migrate
 
-* How to run the test suite
+# サーバーの起動
+bin/rails server
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## 機能
 
-* Deployment instructions
-
-* ...
+* シンプルなホームページ
+* Bootstrapによるレスポンシブデザイン
